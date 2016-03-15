@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sistema Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body>
+  <nav class="menu">
+    <ul class="navitems">
+      <li>Inicio</li>
+      <li>Desarrollo</li>
+      <li>Proyectos</li>
+      <li>Informaci&oacute;n</li>
+    </ul>
+    <ul class="navlog">
+      <a href="#"><li>Login</li></a>
+      <a href="#"><li>Register</li></a>
+    </ul>
+    <a href="#" id="pull">
+      <span class="toggle-button">
+        <span class="toggle"></span>
+        <span class="toggle"></span>
+        <span class="toggle"></span>
+      </span>
+    </a>
+  </nav>
+  <script src="scripts/menu.js"></script>
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns formulario">
+        <h1>Reg&iacute;strate</h1>
+        <form action="" method="POST">
+          <input type="text" name="username" placeholder="Username" /><br>
+          <input type="password" name="password" placeholder="Contase&ntilde;a" /><br>
+          <input type="password" name="password2" placeholder="Confirme contrase&ntilde;a" /><br>
+          <input type="text" name="nombre" placeholder="Nombre" /><br>
+          <input type="text" name="apellido" placeholder="Apellido" /><br>
+          <input type="email" name="coreo" placeholder="Correo electronico" /><br>
+          <input type="submit" name="register" class="button-primary" value="Registrar" />
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

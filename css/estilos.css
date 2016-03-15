@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+  font-family: "Raleway", sans-serif; }
+
+.menu {
+  position: fixed;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 2em;
+  width: 100%;
+  font-size: 1.4em;
+  z-index: 9999; }
+  .menu .navitems {
+    list-style: none;
+    float: left;
+    text-align: center; }
+    .menu .navitems li {
+      display: inline-block;
+      padding: 0.4em 0.3em;
+      margin: 0 0.5em;
+      border-radius: 0 0 10px 10px;
+      color: #888;
+      cursor: pointer;
+      transition: all 0.3s;
+      z-index: 9999; }
+      .menu .navitems li:hover {
+        color: #FFF; }
+        .menu .navitems li:hover:nth-child(1) {
+          background: rgba(252, 82, 143, 0.8); }
+        .menu .navitems li:hover:nth-child(2) {
+          background: rgba(192, 91, 255, 0.8); }
+        .menu .navitems li:hover:nth-child(3) {
+          background: rgba(72, 200, 89, 0.8); }
+        .menu .navitems li:hover:nth-child(4) {
+          background: rgba(246, 244, 50, 0.8); }
+        .menu .navitems li:hover:nth-child(5) {
+          background: rgba(255, 149, 38, 0.8); }
+  .menu .navlog {
+    text-align: center;
+    float: right; }
+    .menu .navlog li {
+      display: inline-block;
+      padding: 0.4em 0.3em;
+      margin: 0 0.5em;
+      border-radius: 0 0 10px 10px;
+      color: #888;
+      cursor: pointer;
+      transition: all 0.3s; }
+      .menu .navlog li:hover {
+        color: #FFF;
+        background: rgba(142, 142, 142, 0.8); }
+  .menu #pull {
+    display: none;
+    width: 30px; }
+    .menu #pull .toggle-button {
+      margin: 4px;
+      display: block;
+      float: right;
+      height: 30px;
+      width: 40px; }
+      .menu #pull .toggle-button .toggle {
+        display: block;
+        margin-top: 3px;
+        width: 30px;
+        float: left;
+        border-style: solid;
+        border-color: #888;
+        border-radius: 1px; }
+
+@media screen and (max-width: 600px) {
+  .menu {
+    position: relative;
+    height: auto; }
+    .menu ul {
+      width: 100%;
+      display: block;
+      float: left;
+      position: relative; }
+    .menu .navitems li {
+      border-radius: 10px;
+      text-align: left;
+      width: 40%;
+      float: left;
+      position: relative; }
+    .menu .navlog li {
+      border-radius: 10px;
+      text-align: left;
+      width: 40%;
+      float: left;
+      position: relative; }
+    .menu a {
+      text-align: left;
+      width: 100%; } }
+@media only screen and (max-width: 480px) {
+  .menu ul {
+    display: none;
+    height: auto; }
+  .menu .navitems li {
+    text-align: left;
+    border-radius: 10px; }
+  .menu .navlog li {
+    text-align: left;
+    border-radius: 10px; }
+  .menu a#pull {
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: -1; }
+    .menu a#pullafter {
+      content: "";
+      background: #304;
+      height: 30px;
+      width: 30px;
+      display: inline-block;
+      position: relative; } }
+.formulario {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10%; }
+  .formulario h1 {
+    color: #888; }
+
+.contenedor {
+  color: #888; }
+
+/*# sourceMappingURL=estilos.css.map */

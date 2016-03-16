@@ -96,9 +96,12 @@ body {
     display: none;
     height: auto; }
   .menu .navitems li {
+    margin: 0;
+    width: 95%;
     text-align: left;
     border-radius: 10px; }
   .menu .navlog li {
+    width: 95%;
     text-align: left;
     border-radius: 10px; }
   .menu a#pull {

@@ -100,17 +100,48 @@ body {
     width: 95%;
     text-align: left;
     border-radius: 10px; }
+    .menu .navitems li:nth-child(1) {
+      border-radius: 0;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-bottom-color: #888; }
+      .menu .navitems li:nth-child(1):hover {
+        border-radius: 10px;
+        border-style: none; }
+    .menu .navitems li:nth-child(2) {
+      border-radius: 0;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-bottom-color: #888; }
+      .menu .navitems li:nth-child(2):hover {
+        border-radius: 10px;
+        border-style: none; }
+    .menu .navitems li:nth-child(3) {
+      border-radius: 0;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-bottom-color: #888; }
+      .menu .navitems li:nth-child(3):hover {
+        border-radius: 10px;
+        border-style: none; }
   .menu .navlog li {
     width: 95%;
     text-align: left;
     border-radius: 10px; }
+    .menu .navlog li:nth-child(1) {
+      border-radius: 0;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-bottom-color: #888; }
+      .menu .navlog li:nth-child(1):hover {
+        border-radius: 10px;
+        border-style: none; }
   .menu a#pull {
     display: block;
     width: 100%;
     position: relative;
     z-index: -1; }
     .menu a#pullafter {
-      content: "";
       background: #304;
       height: 30px;
       width: 30px;
